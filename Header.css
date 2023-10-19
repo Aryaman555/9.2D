@@ -1,0 +1,41 @@
+/* Header.css */
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Header background color */
+  padding: 10px 20px;
+  color: #fff; /* Text color */
+}
+
+.left a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff; /* Header text color */
+  margin: 0;
+}
+
+.center .search {
+  padding: 5px;
+  border: 1px solid #555; /* Search input border color */
+  border-radius: 5px;
+  outline: none;
+  width: 300px; /* Adjust the width as needed */
+  background-color: #444; /* Search input background color */
+  color: #fff; /* Search input text color */
+}
+
+.right {
+  display: flex;
+}
+
+.plan, .post, .login {
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  margin: 0 10px;
+}
+
+.plan:hover, .post:hover, .login:hover {
+  color: #ff6b6b; /* Link text color on hover */
+}

@@ -1,0 +1,63 @@
+/* Styling for the main container */
+.center_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+/* Styling for the "Sign up instead" link */
+.signup {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the h1 elements */
+h1 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Styling for the input fields and button */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .center {
+    padding: 10px;
+  }
+}
+/* CSS for the differentHeader class */
+.differentHeader {
+  background-color: #333; /* Background color for the header */
+  color: #fff; /* Text color for the header */
+  padding: 10px; /* Padding around the header content */
+  text-align: center; /* Center-align the header content */
+}
+
+/* You can add more styles as needed */
+
